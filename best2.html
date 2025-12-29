@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Smart Locks 2025 | Pure HTML Guide</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-gold': '#c59d5f',
+                        'brand-black': '#1a1a1a',
+                        'brand-gray': '#4a4a4f',
+                        'brand-light': '#f4f4f4',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gold-gradient { background: linear-gradient(135deg, #c59d5f 0%, #e2c293 50%, #b38a4d 100%); }
+
+        /* منطق تب‌بندی بدون جاوااسکریپت */
+        .tab-content { display: none; }
+        
+        /* نمایش محتوا بر اساس رادیو انتخاب شده */
+        #tab1-p1:checked ~ .content-p1-t1,
+        #tab2-p1:checked ~ .content-p1-t2,
+        #tab1-p2:checked ~ .content-p2-t1,
+        #tab2-p2:checked ~ .content-p2-t2 {
+            display: block;
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+
+        /* استایل فعال شدن عنوان تب (Label) */
+        #tab1-p1:checked ~ .tab-nav label[for="tab1-p1"],
+        #tab2-p1:checked ~ .tab-nav label[for="tab2-p1"],
+        #tab1-p2:checked ~ .tab-nav label[for="tab1-p2"],
+        #tab2-p2:checked ~ .tab-nav label[for="tab2-p2"] {
+            border-bottom: 4px solid #c59d5f;
+            color: #c59d5f;
+        }
+label.pb-4.text-sm.font-black.uppercase.tracking-widest.text-brand-gray.cursor-pointer.border-b-4.border-transparent.hover\:text-brand-gold.transition-all {
+    margin-left: 1rem;
+}
+
+        @keyframes fadeIn { 
+            from { opacity: 0; transform: translateY(8px); } 
+            to { opacity: 1; transform: translateY(0); } 
+        }
+    </style>
+</head>
+<body class="bg-brand-light text-brand-black leading-relaxed">
+
+    <header class="bg-white border-b border-gray-200 py-16 mb-12 shadow-sm">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <h1 class="text-5xl font-black text-brand-black mb-6 tracking-tighter uppercase font-black uppercase tracking-widest">
+                Best Smart Locks <span class="text-brand-gold">for UPVC Doors</span>
+            </h1>
+            <div class="h-1.5 w-32 gold-gradient mx-auto mb-6 rounded-full"></div>
+            <p class="text-brand-gray font-bold uppercase tracking-[0.4em] text-xs">Expert 2025 Hardware Selection</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 max-w-5xl space-y-24 pb-20">
+
+        <section class="bg-white rounded-[2.5rem] shadow-xl border border-gray-100 overflow-hidden">
+            <div class="p-8 md:p-12">
+                <div class="mb-10 text-left">
+                    <span class="text-brand-gold font-black uppercase tracking-widest text-sm border-b-2 border-brand-gold pb-1">Masterpiece #01</span>
+                    <h2 class="text-4xl font-black mt-4 text-brand-black uppercase">Yale Conexis L2</h2>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-12 mb-12 items-center">
+                    <div class="md:w-3/5">
+                        <h3 class="text-2xl font-black mb-4 text-brand-black uppercase italic">Overview</h3>
+                        <p class="text-brand-gray text-lg leading-relaxed italic">
+                            The Yale Conexis L2 is a high-security handle-replacement smart lock designed specifically for multi-point locking doors. It combines a sophisticated metallic finish with advanced security.
+                        </p>
+                    </div>
+                    <div class="md:w-2/5 w-full">
+                        <div class="aspect-[4/5] bg-brand-black rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-gold/30">
+                            <img src="../Best/1.jpg" class="w-full h-full object-cover" alt="Yale Conexis L2">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-10 mb-20">
+                    <div class="bg-brand-light p-10 rounded-3xl border-t-8 border-brand-gold">
+                        <h4 class="font-black text-brand-black mb-6 uppercase tracking-widest text-lg">Pros</h4>
+                        <ul class="text-brand-gray space-y-4 font-medium italic">
+                            <li class="flex items-start"><span class="text-brand-gold mr-2 text-xl">✔</span> Fully BSI Kitemarked Protection.</li>
+                            <li class="flex items-start"><span class="text-brand-gold mr-2 text-xl">✔</span> Total Smartphone Access Control.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-brand-black p-10 rounded-3xl border-t-8 border-brand-gray">
+                        <h4 class="font-black text-brand-gold mb-6 uppercase tracking-widest text-lg">Cons</h4>
+                        <ul class="text-gray-400 space-y-4 font-medium italic">
+                            <li class="flex items-start"><span class="text-white mr-2 text-xl">✘</span> Complex Installation Process.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="border-t border-gray-100 pt-10">
+                    <input type="radio" name="p1-tabs" id="tab1-p1" class="hidden" checked>
+                    <input type="radio" name="p1-tabs" id="tab2-p1" class="hidden">
+
+                    <div class="tab-nav flex border-b border-gray-200 mb-8 space-x-8 space-x-reverse overflow-x-auto">
+                        <label for="tab1-p1" class="pb-4 text-sm font-black uppercase tracking-widest text-brand-gray cursor-pointer border-b-4 border-transparent hover:text-brand-gold transition-all">Security</label>
+                        <label for="tab2-p1" class="pb-4 text-sm font-black uppercase tracking-widest text-brand-gray cursor-pointer border-b-4 border-transparent hover:text-brand-gold transition-all">Connectivity</label>
+                    </div>
+
+                    <div class="tab-content content-p1-t1">
+                        <h2 class="text-2xl font-black text-brand-black uppercase mb-4 tracking-tighter">BSI Kitemark Protection</h2>
+                        <p class="text-brand-gray text-lg mb-6 max-w-3xl">Designed to meet the most stringent insurance requirements for residential safety.</p>
+                        <h3 class="text-lg font-bold text-brand-gold uppercase tracking-widest mb-3">Tamper Alarm</h3>
+                        <p class="text-brand-gray">Internal sensors trigger an immediate 80dB alarm upon any unauthorized interference.</p>
+                    </div>
+
+                    <div class="tab-content content-p1-t2">
+                        <h2 class="text-2xl font-black text-brand-black uppercase mb-4 tracking-tighter">Smartphone Integration</h2>
+                        <p class="text-brand-gray text-lg mb-6 max-w-3xl">Manage entry from anywhere in the world using the Yale Access Wi-Fi bridge.</p>
+                        <h3 class="text-lg font-bold text-brand-gold uppercase tracking-widest mb-3">Virtual Keys</h3>
+                        <p class="text-brand-gray">Issue temporary access codes to friends and cleaners via the encrypted app.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gold-gradient rounded-[3rem] py-16 text-center shadow-2xl">
+            <h2 class="text-4xl font-black text-brand-black mb-4 uppercase">Industrial Hardware Specialists</h2>
+            <p class="text-brand-black font-bold uppercase tracking-[0.2em] text-xs mb-8">Professional Grade Security for 2025</p>
+            <a href="#" class="inline-block bg-brand-black text-white px-12 py-4 rounded-full font-black uppercase text-xs tracking-widest shadow-xl transform hover:scale-105 transition">Explore Store</a>
+        </section>
+
+        <section class="bg-white rounded-[2.5rem] shadow-xl border border-gray-100 overflow-hidden">
+            <div class="p-8 md:p-12">
+                <div class="mb-10 text-left">
+                    <span class="text-brand-black font-black uppercase tracking-widest text-sm border-b-2 border-brand-black pb-1">Hybrid King #02</span>
+                    <h2 class="text-4xl font-black mt-4 text-brand-black uppercase text-gradient-gold">Ultion Nuki Black</h2>
+                </div>
+
+                <div class="flex flex-col md:flex-row-reverse gap-12 mb-12 items-center">
+                    <div class="md:w-3/5">
+                        <h3 class="text-2xl font-black mb-4 text-brand-gold uppercase italic">Overview</h3>
+                        <p class="text-brand-gray text-lg leading-relaxed italic text-left">
+                            The perfect marriage of heavy-duty mechanical engineering and cutting-edge software. Designed for doors that require a physical key override.
+                        </p>
+                    </div>
+                    <div class="md:w-2/5 w-full">
+                        <div class="aspect-[4/5] bg-brand-gray rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-black/30">
+                            <img src="https://via.placeholder.com/600x800/4a4a4f/ffffff?text=Ultion+Hardware" class="w-full h-full object-cover" alt="Ultion Nuki">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-gray-100 pt-10">
+                    <input type="radio" name="p2-tabs" id="tab1-p2" class="hidden">
+                    <input type="radio" name="p2-tabs" id="tab2-p2" class="hidden" checked>
+
+                    <div class="tab-nav flex border-b border-gray-200 mb-8 space-x-8 space-x-reverse overflow-x-auto">
+                        <label for="tab1-p2" class="pb-4 text-sm font-black uppercase tracking-widest text-brand-gray cursor-pointer border-b-4 border-transparent hover:text-brand-gold transition-all">Durability</label>
+                        <label for="tab2-p2" class="pb-4 text-sm font-black uppercase tracking-widest text-brand-gray cursor-pointer border-b-4 border-transparent hover:text-brand-gold transition-all">Ecosystem</label>
+                    </div>
+
+                    <div class="tab-content content-p2-t1">
+                        <h2 class="text-2xl font-black text-brand-black uppercase mb-4 tracking-tighter">3-Star Cylinder Tech</h2>
+                        <p class="text-brand-gray text-lg mb-6">Built with hardened steel to resist all common drilling and snapping attacks.</p>
+                        <h3 class="text-lg font-bold text-brand-gold uppercase tracking-widest mb-3">Lockdown Mode</h3>
+                        <p class="text-brand-gray">A hidden bolt activates if the lock is attacked, securing the door permanently from the inside.</p>
+                    </div>
+
+                    <div class="tab-content content-p2-t2">
+                        <h2 class="text-2xl font-black text-brand-black uppercase mb-4 tracking-tighter">Apple HomeKit Support</h2>
+                        <p class="text-brand-gray text-lg mb-6">Control your door natively with Siri and the Apple Home app on your iOS devices.</p>
+                        <h3 class="text-lg font-bold text-brand-gold uppercase tracking-widest mb-3">Auto-Unlock</h3>
+                        <p class="text-brand-gray">The door automatically retracts its latch as you approach with your smartphone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-black text-white py-16 border-t-4 border-brand-gold text-center">
+        <div class="text-2xl font-black text-brand-gold uppercase tracking-[0.5em] mb-4 italic">LUXE SECURITY</div>
+        <p class="text-gray-500 text-[10px] uppercase font-bold tracking-widest italic">© 2025 Professional Hardware Guides. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
